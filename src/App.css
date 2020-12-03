@@ -1,0 +1,45 @@
+.onoma-style{
+    background-color:aqua ;
+    color:red;
+    margin-right: 10%;
+    width: 100%;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    cursor:default;
+    width: 58%;
+}
+.onoma-style:hover{
+    background-color: red;
+    color: aqua;
+    transition: all 0.2s ease-in-out;
+}
+.button-plus-style{
+    background-color:aqua;
+    transition: all 0.2s ease-in-out;
+    margin-left: -10%;
+    margin-right: 10%;
+    cursor: pointer;
+}
+.button-plus-style:hover{
+    background-color: red;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.button-minus-style{
+    background-color:aqua;
+    transition: all 0.2s ease-in-out;
+    margin-left: -10%;
+    cursor: pointer;
+}
+.button-minus-style:hover{
+    background-color: red;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.counter-style-0{
+    background-color:red ;
+}
+.counter-style-1{
+    background-color: white;
+    
+}
