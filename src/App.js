@@ -5,23 +5,24 @@ import {Container,Row,Col} from 'react-bootstrap';
 
 
 class App extends Component {
-  state = { count:0 }
+  state = { count:0}
   Increasment = () =>{
     this.setState({count:this.state.count +1});
   }
   Decreasment = () =>{
     this.setState({count:this.state.count -1})
   }
+  
   render() { 
     
     
-    return ( 
+    return (  
       <div >
       <Container>
         <Row>
           <Col><h1 className="onoma-style">Petrakis Counter</h1></Col>
           <Col><button className="button-plus-style" onClick={this.Increasment} >+</button></Col>
-          <Col><span>{this.state.count}</span></Col>
+          <Col><span  >{this.state.count}</span></Col>
           <Col><button className="button-minus-style" onClick={this.Decreasment} >-</button></Col>
         </Row>
       </Container>
