@@ -47,5 +47,8 @@
   background-color: black;
 }
 .white {
-  color: white;
+  color: rgb(255, 255, 255);
+}
+.image {
+  margin-left: 25%;
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container,Row,Col} from 'react-bootstrap';
+import sitega from './sitega.png'
 
 
 class App extends Component {
@@ -29,6 +30,9 @@ class App extends Component {
         </Row>
         <Row>
           <Col className="white">papari</Col>
+        </Row>
+        <Row >
+          <Col className="image">< img src={sitega} alt="image" height={200} width={200}/></Col>
         </Row>
       </Container>
     </div>
