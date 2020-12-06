@@ -4,12 +4,11 @@
 .onoma-style {
   background-color: aqua;
   color: red;
-  margin-right: 10%;
-  width: 100%;
+  margin-left: 15%;
+  width: 67%;
   justify-content: center;
   transition: all 0.2s ease-in-out;
   cursor: default;
-  width: 100%;
 }
 .onoma-style:hover {
   background-color: red;
@@ -19,7 +18,7 @@
 .button-plus-style {
   background-color: aqua;
   transition: all 0.2s ease-in-out;
-  margin-left: 10%;
+  margin-left: 32%;
   margin-right: 10%;
   cursor: pointer;
 }
@@ -30,7 +29,7 @@
 .button-minus-style {
   background-color: aqua;
   transition: all 0.2s ease-in-out;
-  margin-left: -20%;
+  margin-right: 40%;
   cursor: pointer;
 }
 .button-minus-style:hover {
@@ -46,4 +45,7 @@
 }
 .body {
   background-color: black;
+}
+.white {
+  color: white;
 }
