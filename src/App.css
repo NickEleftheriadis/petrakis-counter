@@ -1,3 +1,6 @@
+.App {
+  text-align: center;
+}
 .onoma-style {
   background-color: aqua;
   color: red;
@@ -16,19 +19,18 @@
 .button-plus-style {
   background-color: aqua;
   transition: all 0.2s ease-in-out;
-  margin-left: -10%;
+  margin-left: 10%;
   margin-right: 10%;
   cursor: pointer;
 }
 .button-plus-style:hover {
   background-color: red;
   transition: all 0.2s ease-in-out;
-  cursor: pointer;
 }
 .button-minus-style {
   background-color: aqua;
   transition: all 0.2s ease-in-out;
-  margin-left: -10%;
+  margin-left: -20%;
   cursor: pointer;
 }
 .button-minus-style:hover {
@@ -41,4 +43,7 @@
 }
 .counter-style-1 {
   background-color: white;
+}
+.body {
+  background-color: black;
 }
