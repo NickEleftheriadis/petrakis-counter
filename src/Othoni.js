@@ -35,7 +35,7 @@ class othoni extends Component {
         </Row>
         <Row>
           <div className="button3">
-          <Link to="/Home"  >press me but be ready for the consiquences </Link>
+          <Link to="/"  >press me but be ready for the consiquences </Link>
           </div>
         </Row>
       </Container>

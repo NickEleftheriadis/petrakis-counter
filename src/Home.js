@@ -38,9 +38,9 @@ class Home extends Component {
         </Row>
         <Row>
           <Col>
-          <Router>
+          <div>
         <Link to="/othoni" className="button3">press me but bee ready for the consiquences</Link>
-        </Router>
+        </div>
           </Col>
         </Row>
       </Container>
