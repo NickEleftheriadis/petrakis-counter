@@ -20,7 +20,7 @@ class othoni extends Component {
             <div>
                 <Container>
         <Row className="App">
-          <Col ><h1 className="onoma-style">Na malaka</h1></Col>
+          <Col ><h1 className="onoma-style">Petrakis' Counter</h1></Col>
         </Row>
         <Row className="App">
           <Col><button  className="button-plus-style" onClick={this.Increasment} >+</button></Col>
@@ -34,9 +34,11 @@ class othoni extends Component {
           <Col className="image">< img src={sitega} alt="image" height={200} width={200}/></Col>
         </Row>
         <Row>
-          <div className="button3">
-          <Link to="/"  >press me but be ready for the consiquences </Link>
+            <Col>
+          <div >
+          <Link to="/" className="button4" >Να μαλάκα, ευχαριστημένος;</Link>
           </div>
+          </Col>
         </Row>
       </Container>
             </div>

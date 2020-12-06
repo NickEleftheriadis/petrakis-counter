@@ -38,8 +38,8 @@ class Home extends Component {
         </Row>
         <Row>
           <Col>
-          <div>
-        <Link to="/othoni" className="button3">press me but bee ready for the consiquences</Link>
+          <div >
+        <Link to="/othoni" className="button3">press me but be ready for the consiquences</Link>
         </div>
           </Col>
         </Row>
