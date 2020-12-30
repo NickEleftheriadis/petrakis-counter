@@ -20,7 +20,7 @@ class Home extends Component {
     
     
     return (  
-      <div  >
+      <div className="backround"  >
       <Container>
         <Row className="App">
           <Col ><h1 className="onoma-style">Petrakis' Counter</h1></Col>

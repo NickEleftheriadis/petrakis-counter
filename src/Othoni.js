@@ -2,8 +2,8 @@
 import React, { Component } from 'react';
 import "./App.css";
 import {Container,Row,Col} from 'react-bootstrap';
-import sitega from './sitega.png'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import sitega from './sitega.png';
+//import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import { Link } from "react-router-dom";
 import Home from "./Home";
 
