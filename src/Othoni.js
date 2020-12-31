@@ -6,6 +6,7 @@ import sitega from './sitega.png';
 //import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import { Link } from "react-router-dom";
 import Home from "./Home";
+import face from './face.png';
 
 class othoni extends Component {
     state = {count:0 }
@@ -31,7 +32,7 @@ class othoni extends Component {
           <Col className="white">papari</Col>
         </Row>
         <Row >
-          <Col className="image">< img src={sitega} alt="image" height={200} width={200}/></Col>
+          <Col className="image">< img src={face} alt="image" height={200} width={200}/></Col>
         </Row>
         <Row>
             <Col>

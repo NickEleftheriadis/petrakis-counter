@@ -34,12 +34,12 @@ class Home extends Component {
           <Col className="white">papari</Col>
         </Row>
         <Row >
-          <Col className="image">< img src={sitega} alt="image" height={200} width={200}/></Col>
+          <Col className="App">< img src={sitega} alt="image" height={200} width={200}/></Col>
         </Row>
         <Row>
           <Col>
           <div >
-        <Link to="/othoni" className="button3">press me but be ready for the consiquences</Link>
+        <Link to="/othoni" className="button3" >press me but be ready for the consiquences</Link>
         </div>
           </Col>
         </Row>
