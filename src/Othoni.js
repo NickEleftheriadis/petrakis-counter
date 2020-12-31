@@ -32,7 +32,7 @@ class othoni extends Component {
           <Col className="white">papari</Col>
         </Row>
         <Row >
-          <Col className="image">< img src={face} alt="image" height={200} width={200}/></Col>
+          <Col className="App">< img src={face} alt="image" height={200} width={200}/></Col>
         </Row>
         <Row>
             <Col>

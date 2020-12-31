@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container,Row,Col} from 'react-bootstrap';
-import sitega from './sitega.png'
+import hand from './handPointingDown.png'
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import Othoni from "./Othoni";
 
@@ -34,12 +34,12 @@ class Home extends Component {
           <Col className="white">papari</Col>
         </Row>
         <Row >
-          <Col className="App">< img src={sitega} alt="image" height={200} width={200}/></Col>
+          <Col className="App">< img src={hand} alt="image" height={200} width={200}/></Col>
         </Row>
         <Row>
           <Col>
           <div >
-        <Link to="/othoni" className="button3" >press me but be ready for the consiquences</Link>
+        <Link to="/othoni" className="App" className="button3" >press me but be ready for the consiquences</Link>
         </div>
           </Col>
         </Row>
